@@ -157,19 +157,19 @@ input, select, textarea {
 }
 
 .carousel .image img {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     object-fit: cover;
     display: block; /* Remove any spacing below the images */
 }
 
-/* Additional styles to remove gap between images */
-.carousel .image:nth-child(odd) img {
-    margin-bottom: -4px; /* Adjust to remove gap */
+/* Negative margin to remove gap */
+.carousel .image img {
+    margin-bottom: -5px;
 }
 
-.carousel .image:nth-child(-n+2) {
-    margin-bottom: -4px; /* Adjust to remove gap */
+.carousel .image:nth-child(even) {
+    margin-right: -5px;
 }
 
 		
