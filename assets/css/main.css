@@ -141,19 +141,18 @@ input, select, textarea {
     flex-wrap: wrap;
     max-width: 800px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the grid */
-    line-height: 0; /* Remove extra spacing */
 }
 
 .carousel {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    line-height: 0; /* Remove extra spacing */
 }
 
 .carousel .image {
-    flex: 0 0 calc(50%); /* Adjust width */
+    flex: 0 0 50%; /* Adjust width */
     box-sizing: border-box;
+    position: relative;
     overflow: hidden;
 }
 
@@ -161,9 +160,18 @@ input, select, textarea {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 0; /* Remove border */
-    border-radius: 0; /* Remove border radius */
+    display: block; /* Remove any spacing below the images */
 }
+
+/* Additional styles to remove gap between images */
+.carousel .image:nth-child(odd) img {
+    margin-bottom: -4px; /* Adjust to remove gap */
+}
+
+.carousel .image:nth-child(-n+2) {
+    margin-bottom: -4px; /* Adjust to remove gap */
+}
+
 		
 
 		
