@@ -405,3 +405,7 @@ function enlargeImage(element) {
     element.classList.toggle("enlarged");
 }
 
+function enlargeImage(element) {
+    document.body.classList.toggle("enlarged");
+}
+
