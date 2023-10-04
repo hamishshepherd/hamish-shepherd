@@ -31,17 +31,6 @@
 			}, 100);
 		});
 
-	const carousel = document.querySelector('.carousel');
-		let scrollValue = 0;
-
-	function scrollCarousel(direction) {
-    	const imageWidth = document.querySelector('.image').offsetWidth + 20; // Adjust for padding
-
-    	if (direction === 'left' && scrollValue < 0) {
-        scrollValue += imageWidth;
-    	} else if (direction === 'right' && Math.abs(scrollValue) < carousel.scrollWidth - carousel.offsetWidth) {
-        scrollValue -= imageWidth;
-    	}
 
 	// Nav.
 		var $nav = $header.children('nav'),
