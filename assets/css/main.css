@@ -139,7 +139,7 @@ input, select, textarea {
 .carousel-container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px; /* Adjust the maximum width as needed */
+    max-width: 1000px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the grid */
 }
 
@@ -149,8 +149,8 @@ input, select, textarea {
 }
 
 .carousel .image {
-    flex: 0 0 calc(50% - 20px); /* Adjust width and spacing */
-    padding: 10px; /* Adjust spacing between images */
+    flex: 0 0 calc(0% - 0px); /* Adjust width and spacing */
+    padding: 0px; /* Adjust spacing between images */
     box-sizing: border-box;
 }
 
