@@ -167,11 +167,6 @@ input, select, textarea {
     margin-bottom: -5px;
 }
 
-/* Make images slightly bigger */
-.carousel .image img {
-    transform: scale(1.05); /* Adjust the scaling factor as needed */
-}
-
 		
 
 		
