@@ -1689,6 +1689,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+
 .carousel-container {
     display: flex;
     flex-wrap: wrap;
@@ -1711,3 +1712,4 @@ input, select, textarea {
     display: block;
     border-radius: 0; /* Remove border radius */
 }
+
