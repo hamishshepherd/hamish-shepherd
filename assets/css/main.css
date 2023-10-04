@@ -136,6 +136,23 @@ input, select, textarea {
 			border: 0;
 		}
 
+.carousel {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: thin; /* Optional: Customize scrollbar appearance */
+}
+
+.carousel .image {
+    margin: 0 10px; /* Adjust spacing between images */
+}
+
+.carousel .image img {
+    width: 100%; /* Make images fill the container */
+    max-width: 300px; /* Limit the maximum width of images */
+    height: auto; /* Maintain aspect ratio */
+}
+		
+
 		
 
 		
