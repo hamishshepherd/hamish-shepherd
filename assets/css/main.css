@@ -1718,7 +1718,7 @@ input, select, textarea {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0%, -50%);
     object-fit: contain;
     z-index: 999;
 }
