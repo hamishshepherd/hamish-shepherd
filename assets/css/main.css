@@ -1713,13 +1713,11 @@ input, select, textarea {
 }
 
 .grid-item.enlarged img {
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: contain; /* or cover, based on your preference */
-    z-index: 999; /* Bring the image to the front */
+    width: 100%; /* Adjust based on your requirements */
+    height: 100%; /* Adjust based on your requirements */
+    max-width: none; /* Remove max-width for enlarged view */
+    max-height: none; /* Remove max-height for enlarged view */
 }
+
 
 
