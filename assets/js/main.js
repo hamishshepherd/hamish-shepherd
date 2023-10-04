@@ -402,6 +402,5 @@
 })(jQuery);
 
 function enlargeImage(element) {
-    document.body.classList.toggle("enlarged");
+    element.classList.toggle("enlarged");
 }
-
