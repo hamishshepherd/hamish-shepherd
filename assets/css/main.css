@@ -1713,11 +1713,13 @@ input, select, textarea {
 }
 
 .grid-item.enlarged img {
-    width: 200%; /* Adjust based on your requirements */
-    height: 200%; /* Adjust based on your requirements */
-    max-width: none; /* Remove max-width for enlarged view */
-    max-height: none; /* Remove max-height for enlarged view */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    z-index: 999;
 }
-
-
 
