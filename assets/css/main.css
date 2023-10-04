@@ -1713,8 +1713,8 @@ input, select, textarea {
 }
 
 .grid-item.enlarged img {
-    width: 100%; /* Adjust based on your requirements */
-    height: 100%; /* Adjust based on your requirements */
+    width: 200%; /* Adjust based on your requirements */
+    height: 200%; /* Adjust based on your requirements */
     max-width: none; /* Remove max-width for enlarged view */
     max-height: none; /* Remove max-height for enlarged view */
 }
