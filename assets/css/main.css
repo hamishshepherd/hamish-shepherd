@@ -1689,7 +1689,6 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-/* Styles for the image grid */
 .carousel-container {
     display: flex;
     flex-wrap: wrap;
