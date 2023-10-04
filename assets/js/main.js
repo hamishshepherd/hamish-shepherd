@@ -14,10 +14,6 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
-function enlargeImage(element) {
-    element.classList.toggle("enlarged");
-}
-
 
 	// Breakpoints.
 		breakpoints({
@@ -404,3 +400,8 @@ function enlargeImage(element) {
 					});
 
 })(jQuery);
+
+function enlargeImage(element) {
+    element.classList.toggle("enlarged");
+}
+
