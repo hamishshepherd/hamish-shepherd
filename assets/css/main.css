@@ -1713,8 +1713,8 @@ input, select, textarea {
 }
 
 .grid-item.enlarged img {
-    width: 90vw;
-    height: 90vh;
+    width: 80vw;
+    height: 80vh;
     position: fixed;
     top: 17%;
     left: 50%;
