@@ -141,12 +141,14 @@ input, select, textarea {
     flex-wrap: wrap;
     max-width: 800px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center the grid */
+    line-height: 0; /* Remove extra spacing */
 }
 
 .carousel {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    line-height: 0; /* Remove extra spacing */
 }
 
 .carousel .image {
