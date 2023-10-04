@@ -1698,7 +1698,7 @@ input, select, textarea {
 }
 
 .carousel .image {
-    width: 50%; /* Adjust width */
+    flex: 1 1 50%; /* Adjust width */
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -1709,5 +1709,6 @@ input, select, textarea {
     object-fit: cover;
     display: block;
 }
+
 
 
