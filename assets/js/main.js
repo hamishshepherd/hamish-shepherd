@@ -14,6 +14,10 @@
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
+	function enlargeImage(element) {
+    element.classList.toggle("enlarged");
+}
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
