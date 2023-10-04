@@ -1721,3 +1721,7 @@ input, select, textarea {
     object-fit: contain;
     z-index: 999;
 }
+
+body.enlarged {
+    overflow: hidden;
+}
